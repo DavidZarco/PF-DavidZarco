@@ -42,7 +42,7 @@
 .caja-productos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap: 10px;
+    column-gap: 5px;
     row-gap: 10px;
 }
 .caja-productos div{
