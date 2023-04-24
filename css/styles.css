@@ -17,6 +17,7 @@
   background-color: rgb(11, 11, 170);
   margin: 10px;
   padding: 5px 15px;
+  position: sticky;
 }
 
 .navegador {
@@ -233,6 +234,7 @@ main ul li {
 
 .caja-productos div {
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 .formulario {
@@ -487,6 +489,20 @@ footer div table {
   .nuestras-redes img {
     height: 50px;
   }
+  div .productos-productos {
+    height: 250px;
+  }
+  .caja-productos div h4 {
+    font-size: 14px;
+  }
+  .caja-productos div h3 {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+  .caja-productos div button {
+    font-size: 10px;
+    margin: 2px;
+  }
 }
 @media (max-width: 556px) {
   .primer-texto p {
@@ -565,6 +581,26 @@ footer div table {
   ul li {
     font-size: 10px;
   }
+  .h1-productos {
+    font-size: 38px;
+  }
+  div.productos-productos {
+    height: 220px;
+  }
+  .caja-productos div h4 {
+    font-size: 10px;
+  }
+  .caja-productos div p {
+    font-size: 5px;
+  }
+  .caja-productos div h3 {
+    font-size: 8px;
+    padding-top: 5px;
+  }
+  .caja-productos div button {
+    font-size: 6px;
+    margin: 2px;
+  }
 }
 @media (max-width: 481px) {
   .primer-texto p {
@@ -602,6 +638,7 @@ footer div table {
   }
   .caja-productos div {
     margin-left: 10px;
+    margin-right: 10px;
   }
   .caja-productos div h4 {
     font-size: 12px;
@@ -619,7 +656,7 @@ footer div table {
     font-size: 9px;
   }
   div.prod-destacado {
-    height: 190px;
+    height: 180px;
   }
   .prod-destacado {
     border: solid 2px;
@@ -640,7 +677,7 @@ footer div table {
   }
   .prod-destacado button {
     font-size: 6px;
-    margin: 2px;
+    margin: 4px;
   }
   .img1-index:hover {
     transform: translate(-5px, 5px);
@@ -673,6 +710,10 @@ footer div table {
   }
   .h2-tamanio {
     font-size: 11px;
+  }
+  .h2-tamanio-metodos {
+    margin-top: 10px;
+    font-size: 12px;
   }
   .metodos-de-pago {
     height: 25px;
@@ -763,7 +804,7 @@ footer div table {
   }
   .prod-destacado button {
     font-size: 8px;
-    margin: 2px;
+    margin: 4px;
   }
   .img1-index:hover {
     transform: translate(-5px, 5px);
@@ -791,8 +832,17 @@ footer div table {
     font-size: 6px;
     margin: 2px;
   }
+  .productos-productos {
+    border: solid 3px;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+  }
   div.prod-destacado {
     height: 190px;
+  }
+  .h2-tamanio-metodos {
+    margin-top: 10px;
+    font-size: 9px;
   }
   .metodos-de-pago {
     height: 25px;
