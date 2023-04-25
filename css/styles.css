@@ -24,9 +24,13 @@
   background-image: linear-gradient(#D9C6FA, rgb(234, 0, 255));
 }
 .navegador ul {
-  display: flex;
   list-style: none;
+  display: flex;
   justify-content: center;
+}
+.navegador ul li {
+  display: flex;
+  text-align: center;
 }
 .navegador ul li a {
   font-size: 32px;
@@ -35,6 +39,7 @@
   font-family: "Source Serif Pro", serif;
   display: block;
   padding: 10px 20px;
+  margin: auto;
 }
 
 .primer-texto {
@@ -200,6 +205,7 @@ main ul li {
 
 .h1-productos {
   text-align: center;
+  font-size: 86px;
 }
 
 .caja-productos h4 {
@@ -423,6 +429,9 @@ footer div table {
   }
   div .prod-destacado {
     border-color: rgb(170, 170, 170);
+  }
+  .h1-productos {
+    font-size: 66px;
   }
 }
 @media (max-width: 768px) {
