@@ -360,6 +360,9 @@ footer div table {
 }
 
 @media (max-width: 1024px) {
+  .primer-texto {
+    font-size: 20px;
+  }
   .caja-productosdestacadosindex {
     height: 550px;
   }
@@ -424,7 +427,7 @@ footer div table {
 }
 @media (max-width: 768px) {
   .primer-texto p {
-    font-size: 10px;
+    font-size: 16px;
   }
   .h2-productosindex {
     font-size: 30px;
@@ -520,7 +523,7 @@ footer div table {
 }
 @media (max-width: 556px) {
   .primer-texto p {
-    font-size: 6px;
+    font-size: 12px;
   }
   .logo-blanco {
     width: 120px;
@@ -622,7 +625,7 @@ footer div table {
 }
 @media (max-width: 481px) {
   .primer-texto p {
-    font-size: 8px;
+    font-size: 10px;
   }
   .logo-blanco {
     width: 100px;
@@ -645,7 +648,7 @@ footer div table {
     height: 200px;
   }
   .h1-productos {
-    font-size: 24px;
+    font-size: 34px;
     padding-top: 5px;
   }
   .caja-productos div {
@@ -787,7 +790,7 @@ footer div table {
 }
 @media (max-width: 320px) {
   .primer-texto p {
-    font-size: 6px;
+    font-size: 8px;
   }
   .logo-blanco {
     width: 80px;
