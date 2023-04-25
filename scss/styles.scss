@@ -516,10 +516,15 @@
     div .productos-productos{
         height: 210px;
     }
-
+    .preguntas-frecuentes-img a img{
+        height: 30px;
+    }
 }
 
 @media(max-width:320px){
+    .preguntas-frecuentes-img a img{
+        height: 30px;
+    }
     .primer-texto p{
         font-size: 8px;
     }
