@@ -66,8 +66,8 @@
                             "borrar";
     }
     .mapa iframe{
-        width: 350px;
-        height: 200px;      
+        width: 410px;
+        height: 300px;      
      }
 }
 @media (max-width:425px){
@@ -88,15 +88,24 @@
         font-size: 18px;
     }
     .mapa iframe{
-       width: 200px;
-       height: 100px;      
+       width: 350px;
+       height: 240px;      
     }
     
 }
 @media(max-width:375px){
     .mapa iframe{
-       width: 270px;
-       height: 250px;      
+       width: 310px;
+       height: 230px;      
+    }
+    .formulario label{
+        font-size: 16px;
+    }
+}
+@media(max-width:320px){
+    .mapa iframe{
+       width: 280px;
+       height: 230px;      
     }
     .formulario label{
         font-size: 16px;
