@@ -24,7 +24,16 @@
 @import "index-main";
 
 @media(max-width:1024px){
-
+    .caja-productosdestacadosindex{
+        height: 550px;
+    }
+    .prod-destacado{
+        height: 500px;
+        img{
+            object-fit: cover;
+            height: 300px;
+        }
+    }
     .caja-productos div{
         height: 380px;
         img{
@@ -128,13 +137,6 @@
     .imagen-banner{
         height: 300px;
     }
-
-    
-    .prod-destacado{
-        width: 100%;
-        height: 395px;   
-    }
-
     .prod-destacado{
         h4{
             font-size: 16px;
