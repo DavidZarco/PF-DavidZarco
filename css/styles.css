@@ -171,7 +171,7 @@ main ul li {
 }
 
 .strong-politica {
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -196,10 +196,6 @@ main ul li {
 
 .h1-politicas {
   text-align: center;
-  padding-top: 10px;
-}
-
-.h3-footer {
   padding-top: 10px;
 }
 
@@ -482,9 +478,6 @@ footer div table {
   div.nuestras-redes {
     height: 40px;
   }
-  .h3-footer {
-    font-size: 18px;
-  }
   footer p {
     font-size: 12px;
   }
@@ -622,14 +615,14 @@ footer div table {
     font-size: 8px;
   }
   .h1-politicas {
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 4px;
   }
   main strong {
-    font-size: 10px;
+    font-size: 14px;
   }
   main p {
-    font-size: 10px;
+    font-size: 13px;
   }
   ul li {
     font-size: 10px;
@@ -657,6 +650,11 @@ footer div table {
   .tabla-talles th, td {
     padding: 3px;
     font-size: 20px;
+  }
+  .tabla-talles th, td {
+    font-size: 20px;
+    border: solid 2px;
+    padding: 5px;
   }
 }
 @media (max-width: 481px) {
@@ -759,9 +757,6 @@ footer div table {
     font-size: 6px;
     margin: 2px;
   }
-  .h3-footer {
-    font-size: 9px;
-  }
   .h2-tamanio {
     font-size: 13px;
   }
@@ -796,19 +791,19 @@ footer div table {
     padding-top: 4px;
   }
   main strong {
-    font-size: 10px;
+    font-size: 12px;
   }
   main p {
-    font-size: 10px;
+    font-size: 12px;
   }
   ul li {
     font-size: 10px;
   }
   .h1-talles {
-    font-size: 22px;
+    font-size: 42px;
   }
   .h2-talles {
-    font-size: 18px;
+    font-size: 34px;
   }
   .tabla-talles th, td {
     font-size: 12px;
@@ -945,10 +940,10 @@ footer div table {
     padding-top: 4px;
   }
   main strong {
-    font-size: 10px;
+    font-size: 12px;
   }
   main p {
-    font-size: 10px;
+    font-size: 11px;
   }
   ul li {
     font-size: 10px;
