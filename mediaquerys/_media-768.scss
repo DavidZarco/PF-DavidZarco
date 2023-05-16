@@ -1,0 +1,107 @@
+@media(max-width:768px){
+
+    .primer-texto p{
+        font-size: 16px;
+    }
+    .h2-productosindex{
+        font-size: 30px;
+    }
+    .h1-politicas{
+        font-size: 30px;
+    }
+    main{
+        strong{
+            font-size: 18px;
+        }
+        p{
+            font-size: 16px; 
+         }
+    }
+    .h2-foter{
+        font-size: 24px;
+    }
+    div.nuestras-redes{
+        height: 40px;
+    }
+    footer{
+        p{
+            font-size: 12px;
+        }
+        h6{
+            font-size: 8px;
+        }
+    }
+    .navegador ul li a{
+        font-size: 12px;
+        padding: 10px 10px 10px 10px;
+    }
+    .logo-blanco{
+        width: 150px;
+    }
+    .imagen-banner{
+        height: 300px;
+    }
+    .prod-destacado{
+        h4{
+            font-size: 16px;
+        }
+        p{
+            font-size: 10px;
+        }
+        h3{
+            font-size: 12px;
+            padding-top: 5px;   
+        }
+        button{
+            font-size: 15px;
+            margin: 4px;
+            position: sticky;
+        }
+
+    }
+    .caja-productosdestacadosindex{
+        height: 320px;
+    }
+    .prod-destacado{
+        height: 300px;
+        img{
+            object-fit: cover;
+            height: 200px;
+        }
+    }
+
+    .h2-footer{
+        font-size: 20px;
+    }
+    .metodos-de-pago{
+        height: 40px;
+    }
+    .nuestras-redes{
+        height: 50px;
+        img{
+            height: 50px; 
+        }
+    }
+    div .productos-productos{
+        height: 250px;
+    }
+    .caja-productos div {
+        h4{
+            font-size: 14px;
+        }
+        h3{
+            font-size: 14px;
+            padding-top: 5px;
+        }
+        button{
+            font-size: 10px;
+            margin: 2px;
+        }
+    }
+    .tabla-talles th,td{
+        padding: 3px;
+        font-size: 24px;
+    }
+    
+
+}

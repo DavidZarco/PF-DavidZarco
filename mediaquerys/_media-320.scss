@@ -1,0 +1,146 @@
+@media(max-width:320px){
+  
+    .preguntas-frecuentes-img a img{
+        height: 30px;
+    }
+    .primer-texto p{
+        font-size: 8px;
+    }
+    .logo-blanco{
+        width: 80px;
+    }
+    .navegador ul li a{
+        font-size: 9px;
+        padding: 5px;
+        text-align: center;
+     
+    }
+    div.productos-productos{
+        height: 200px;
+    }
+    .imagen-banner{
+        height: 300px;
+    }
+    .preg-padre h1{
+        font-size: 25px;
+    }
+    .h2-productosindex{
+        font-size: 16px;
+    }
+    .caja-productosdestacadosindex{
+        flex-wrap: wrap;
+    }
+    div.caja-productosdestacadosindex{
+        height: 950px;
+    }
+    .prod-destacado{
+        text-align: center;
+        img{
+            height: 100px;
+        }
+        h4{
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+        }
+        h3{
+            font-size: 14px;
+            padding-top: 5px;
+        }
+        button{
+            font-size: 15px;
+            margin: 4px;
+        
+        }
+
+    }
+    .img1-index:hover{
+        transform: translate(-2px,10px);
+        button{
+            transform: scale(1.1);            
+        }
+    }
+    .img2-index:hover{
+        transform: translate(5px,5px);
+        button{
+            transform: scale(1.1);            
+        }
+    }
+    .caja-productos div {
+        h4{
+            font-size: 9px;
+        }
+        p{
+            font-size: 5px;
+        }
+        h3{
+            font-size: 8px;
+            padding-top: 5px;
+        }
+        button{
+            font-size: 6px;
+            margin: 2px;
+        }
+    }
+    .productos-productos{
+        border: solid 3px;
+        border-radius: 5px;
+        border-color: rgb(170, 170, 170);
+    }
+    div.caja-productos{
+        padding-bottom: 10px;
+    }
+
+    div.prod-destacado{
+        height: 220px;
+    }
+    .h2-tamanio-metodos{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .metodos-de-pago{
+        height: 25px;
+    }
+    .h2-tamanio{
+        font-size: 16px;
+    }
+    div.nuestras-redes{
+        height: 25px;
+        justify-items: cover;
+        img{
+            height: 18px;
+        }
+    }
+    div{
+        h3{
+            font-size: 16px;
+        }
+        p{
+            font-size: 14px;
+        }
+        h6{
+            font-size: 8px;
+        }
+    }
+    .h1-politicas{
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    main{
+        strong{
+            font-size: 12px;
+        }
+        p{
+            font-size: 11px;
+        }
+    }
+    ul li{
+        font-size: 10px;
+    }
+    .tabla-talles th,td{
+        padding: 3px;
+        font-size: 12px;
+    }
+
+}
