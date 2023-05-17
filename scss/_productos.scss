@@ -13,13 +13,16 @@
     height: 700px;
     margin-top: 0px;   
 }
-.img-prod div img:hover{
-    transform: scale(1.2)
-}
 .productos-productos{
         border: solid 5px;
         border-radius: 10px;
         border-color: rgb(170, 170, 170);
+}
+.productos-productos:hover{
+    transform: translate(5px,5px);
+    button{
+        transform: scale(1.1);            
+    }
 }
 
 .boton1c{

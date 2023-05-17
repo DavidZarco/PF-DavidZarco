@@ -1,5 +1,4 @@
 @media(max-width:556px){
-
     .primer-texto p{
         font-size: 12px;
     }
@@ -10,38 +9,39 @@
         font-size: 10px;
         padding: 5px;
         text-align: center;
-     
     }
     .imagen-banner{
-        height: 200px;
+        height: 300px;
     }
     .preg-padre h1{
         font-size: 35px;
     }
-    
- 
     .caja-productosdestacadosindex{
-        height: 220px;
+        height: 720px;
+        flex-wrap: wrap;
     }
     .prod-destacado{
-        height: 200px;
+        height: 340px;
+        width: 220px;
+        text-align: center;
         img{
-        height: 100px;
-        object-fit: fill;
+            height: 200px;
+            object-fit: fill;
         }
         h4{
-            font-size: 16px;
+            font-size: 18px;
         }
         p{
-            font-size: 10px;
+            font-size: 16px;
         }
         h3{
-            font-size: 10px;
+            font-size: 16px;
             padding-top: 5px;
         }
         button{
             font-size: 14px;
-            margin: 2px;        
+            margin: 2px;
+            text-align: center;        
         }
     }  
     .h2-tamanio{
@@ -107,12 +107,9 @@
         padding: 3px;
         font-size: 20px;
     }
- 
     .tabla-talles th,td{
         font-size: 20px;
         border:solid 2px;
         padding: 5px;
     }
-
-
 }

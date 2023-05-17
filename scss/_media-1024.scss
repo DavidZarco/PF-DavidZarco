@@ -3,7 +3,10 @@
         font-size: 20px;
     }
     .caja-productosdestacadosindex{
-        height: 550px;
+        height: 520px;
+        h4{
+            font-size: 20px;
+        }
     }
     .prod-destacado{
         height: 500px;
@@ -23,7 +26,7 @@
         font-size: 36px;
     }
     main p{
-       font-size: 18px; 
+       font-size: 15px; 
     }
     .imagen-banner{
         height: 400px;
@@ -58,7 +61,6 @@
             font-size: 10px;
         }
     }
-
     .nuestras-redes{
         height: 50px;
         img{
@@ -70,6 +72,5 @@
     }
     .h1-productos{
         font-size: 66px;
-    }
-    
+    } 
 }
