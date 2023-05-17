@@ -455,6 +455,9 @@ footer div table {
   .prod-destacado {
     height: 500px;
   }
+  .prod-destacado h3 {
+    font-size: 25px;
+  }
   .prod-destacado img {
     object-fit: cover;
     height: 300px;
@@ -489,11 +492,8 @@ footer div table {
   main h2 {
     font-size: 38px;
   }
-  .h2-tamanio {
-    font-size: 30px;
-  }
   footer h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
   footer h3 {
     font-size: 28px;
@@ -550,9 +550,6 @@ footer div table {
   .margen-politicas {
     font-size: 16px;
   }
-  .h2-foter {
-    font-size: 24px;
-  }
   div.nuestras-redes {
     height: 40px;
   }
@@ -573,13 +570,13 @@ footer div table {
     height: 300px;
   }
   .prod-destacado h4 {
-    font-size: 16px;
+    font-size: 20px;
   }
   .prod-destacado p {
-    font-size: 10px;
+    font-size: 16px;
   }
   .prod-destacado h3 {
-    font-size: 12px;
+    font-size: 20px;
     padding-top: 5px;
   }
   .prod-destacado button {
@@ -588,19 +585,16 @@ footer div table {
     position: sticky;
   }
   .caja-productosdestacadosindex {
-    height: 700px;
+    height: 730px;
     flex-wrap: wrap;
   }
   .prod-destacado {
-    height: 330px;
+    height: 350px;
     width: 250px;
   }
   .prod-destacado img {
     object-fit: cover;
     height: 200px;
-  }
-  .h2-footer {
-    font-size: 20px;
   }
   .metodos-de-pago {
     height: 40px;
@@ -642,7 +636,7 @@ footer div table {
 }
 @media (max-width: 599px) {
   .caja-productosdestacadosindex {
-    height: 1400px;
+    height: 730px;
     flex-wrap: wrap;
   }
 }
@@ -665,11 +659,11 @@ footer div table {
     font-size: 35px;
   }
   .caja-productosdestacadosindex {
-    height: 1450px;
+    height: 730px;
     flex-wrap: wrap;
   }
   .prod-destacado {
-    height: 340px;
+    height: 350px;
     width: 220px;
     text-align: center;
   }
@@ -692,7 +686,10 @@ footer div table {
     margin: 2px;
     text-align: center;
   }
-  .h2-tamanio {
+  footer h2 {
+    font-size: 20px;
+  }
+  footer h3 {
     font-size: 20px;
   }
   .metodos-de-pago {
@@ -776,7 +773,7 @@ footer div table {
     font-size: 30px;
   }
   .caja-productosdestacadosindex {
-    height: 1200px;
+    height: 1270px;
     flex-wrap: wrap;
   }
   .h1-productos {
@@ -796,7 +793,7 @@ footer div table {
     grid-template-columns: repeat(1, 1fr);
   }
   div.prod-destacado {
-    height: 280px;
+    height: 300px;
   }
   .prod-destacado {
     border: solid 2px;
@@ -833,8 +830,11 @@ footer div table {
   .img2-index:hover button {
     transform: scale(1.1);
   }
-  .h2-tamanio {
-    font-size: 16px;
+  footer h2 {
+    font-size: 18px;
+  }
+  footer h3 {
+    font-size: 18px;
   }
   .h2-tamanio-metodos {
     margin-top: 10px;
@@ -898,10 +898,6 @@ footer div table {
     height: 30px;
   }
 }
-.prod-destacado {
-  width: 280px;
-}
-
 @media (max-width: 320px) {
   .h1-talles {
     font-size: 32px;
@@ -936,7 +932,7 @@ footer div table {
     flex-wrap: wrap;
   }
   div.caja-productosdestacadosindex {
-    height: 990px;
+    height: 1030px;
   }
   .prod-destacado img {
     height: 100px;
@@ -994,7 +990,7 @@ footer div table {
     height: 150px;
   }
   div.prod-destacado {
-    height: 230px;
+    height: 240px;
   }
   .h2-tamanio-metodos {
     margin-top: 10px;
@@ -1003,8 +999,11 @@ footer div table {
   .metodos-de-pago {
     height: 25px;
   }
-  .h2-tamanio {
-    font-size: 16px;
+  footer h2 {
+    font-size: 18px;
+  }
+  footer h3 {
+    font-size: 18px;
   }
   div.nuestras-redes {
     height: 25px;

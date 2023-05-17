@@ -33,7 +33,7 @@
         flex-wrap: wrap;
     }
     div.caja-productosdestacadosindex{
-        height: 990px;
+        height: 1030px;
     }
     .prod-destacado{
         img{
@@ -95,7 +95,7 @@
         }
     }
     div.prod-destacado{
-        height: 230px;
+        height: 240px;
     }
     .h2-tamanio-metodos{
         margin-top: 10px;
@@ -104,8 +104,13 @@
     .metodos-de-pago{
         height: 25px;
     }
-    .h2-tamanio{
-        font-size: 16px;
+    footer {
+        h2{
+            font-size: 18px;
+        }
+        h3{
+            font-size: 18px;
+        }
     }
     div.nuestras-redes{
         height: 25px;

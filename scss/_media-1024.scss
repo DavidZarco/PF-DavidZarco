@@ -10,6 +10,9 @@
     }
     .prod-destacado{
         height: 500px;
+        h3{
+            font-size: 25px;
+        }
         img{
             object-fit: cover;
             height: 300px;
@@ -47,12 +50,9 @@
     main h2{
         font-size: 38px;
     }
-    .h2-tamanio{
-        font-size: 30px;
-    }
     footer{
         h2{
-            font-size: 25px;
+            font-size: 30px;
         }
         h3{
             font-size: 28px;

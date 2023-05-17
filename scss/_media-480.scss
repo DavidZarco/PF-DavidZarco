@@ -20,7 +20,7 @@
         font-size: 30px;
     }
     .caja-productosdestacadosindex{
-        height: 1200px;
+        height: 1270px;
         flex-wrap: wrap;
     }  
     .h1-productos{
@@ -43,7 +43,7 @@
         grid-template-columns: repeat(1,1fr);
     }
     div.prod-destacado{
-        height: 280px;
+        height: 300px;
     }
     .prod-destacado{
         border: solid 2px;
@@ -80,8 +80,13 @@
             transform: scale(1.1);            
         }
     }
-    .h2-tamanio{
-        font-size: 16px;
+    footer{
+        h2{
+            font-size: 18px;
+        }
+        h3{
+            font-size: 18px;
+        }
     }
     .h2-tamanio-metodos{
         margin-top: 10px;
