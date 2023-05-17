@@ -522,11 +522,20 @@ footer div table {
   .h1-productos {
     font-size: 66px;
   }
+  div .productos-productos {
+    height: 520px;
+  }
 }
 @media (max-width: 952px) {
   .navegador ul li a {
     padding: 10px 10px 10px 10px;
     font-size: 18px;
+  }
+  div .productos-productos {
+    height: 460px;
+  }
+  div .productos-productos h4 {
+    font-size: 26px;
   }
 }
 @media (max-width: 832px) {
@@ -606,7 +615,7 @@ footer div table {
     height: 50px;
   }
   div .productos-productos {
-    height: 340px;
+    height: 360px;
   }
   .caja-productos div h4 {
     font-size: 26px;
@@ -728,7 +737,7 @@ footer div table {
     font-size: 38px;
   }
   div.productos-productos {
-    height: 290px;
+    height: 310px;
   }
   .caja-productos div h4 {
     font-size: 22px;
@@ -891,8 +900,8 @@ footer div table {
     border-radius: 5px;
     border-color: rgb(170, 170, 170);
   }
-  div .productos-productos {
-    height: 280px;
+  div.productos-productos {
+    height: 300px;
   }
   .preguntas-frecuentes-img a img {
     height: 30px;
