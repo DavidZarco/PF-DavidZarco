@@ -43,6 +43,25 @@
   margin: auto;
 }
 
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.navbar ul li {
+  display: flex;
+  text-align: center;
+}
+.navbar ul li a {
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+  font-family: "Source Serif Pro", serif;
+  display: block;
+  padding: 10px 20px;
+  margin: auto;
+}
+
 .primer-texto {
   color: #E92178;
   text-align: center;
@@ -240,12 +259,20 @@ main ul li {
   row-gap: 10px;
 }
 
+.productos-productos {
+  text-align: center;
+}
+
 .caja-productos div {
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .formulario {
+  color: rgb(87, 0, 92);
+  background-color: rgb(242, 188, 253);
+  border-radius: 5px;
+  border: solid;
   margin-left: 10px;
   margin-right: 20px;
   display: grid;
@@ -255,7 +282,6 @@ main ul li {
 .formulario label {
   display: flex;
   flex-direction: column;
-  padding-left: 10px;
   padding-bottom: 5px;
 }
 .formulario label:nth-child(1) {
@@ -389,6 +415,12 @@ footer div table {
   footer p {
     font-family: "Lora", serif;
   }
+  .preg-padre strong {
+    font-size: 26px;
+  }
+  .preg-padre p {
+    font-size: 22px;
+  }
 }
 @media (max-width: 1380px) {
   .navegador ul li a {
@@ -405,6 +437,9 @@ footer div table {
     width: 100%;
     height: 500px;
     margin-top: 0px;
+  }
+  .navbar ul li a {
+    font-size: 24px;
   }
 }
 @media (max-width: 1024px) {
@@ -454,17 +489,20 @@ footer div table {
   main h2 {
     font-size: 38px;
   }
+  .h2-tamanio {
+    font-size: 30px;
+  }
   footer h2 {
     font-size: 25px;
   }
   footer h3 {
-    font-size: 20px;
+    font-size: 28px;
   }
   footer p {
-    font-size: 14px;
+    font-size: 22px;
   }
   footer h6 {
-    font-size: 10px;
+    font-size: 16px;
   }
   .nuestras-redes {
     height: 50px;
@@ -474,6 +512,12 @@ footer div table {
   }
   div .prod-destacado {
     border-color: rgb(170, 170, 170);
+  }
+  .strong-politica {
+    font-size: 28px;
+  }
+  .margen-politicas p {
+    font-size: 20px;
   }
   .h1-productos {
     font-size: 66px;
@@ -498,12 +542,12 @@ footer div table {
     font-size: 30px;
   }
   .h1-politicas {
-    font-size: 30px;
+    font-size: 38px;
   }
-  main strong {
-    font-size: 18px;
+  .strong-politica {
+    font-size: 28px;
   }
-  main p {
+  .margen-politicas {
     font-size: 16px;
   }
   .h2-foter {
@@ -513,10 +557,10 @@ footer div table {
     height: 40px;
   }
   footer p {
-    font-size: 12px;
+    font-size: 20px;
   }
   footer h6 {
-    font-size: 8px;
+    font-size: 16px;
   }
   .navegador ul li a {
     font-size: 12px;
@@ -568,27 +612,43 @@ footer div table {
     height: 50px;
   }
   div .productos-productos {
-    height: 250px;
+    height: 340px;
   }
   .caja-productos div h4 {
-    font-size: 14px;
+    font-size: 26px;
   }
   .caja-productos div h3 {
-    font-size: 14px;
+    font-size: 22px;
     padding-top: 5px;
   }
   .caja-productos div button {
-    font-size: 10px;
+    font-size: 18px;
     margin: 2px;
   }
   .tabla-talles th, td {
     padding: 3px;
     font-size: 24px;
   }
+  .caja-productos {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 10px;
+  }
+  .h2-talles {
+    padding-top: 10px;
+  }
+  .h3-footer {
+    font-size: 24px;
+  }
+}
+@media (max-width: 599px) {
+  .caja-productosdestacadosindex {
+    height: 1400px;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 556px) {
   .primer-texto p {
-    font-size: 12px;
+    font-size: 16px;
   }
   .logo-blanco {
     width: 120px;
@@ -605,7 +665,7 @@ footer div table {
     font-size: 35px;
   }
   .caja-productosdestacadosindex {
-    height: 720px;
+    height: 1450px;
     flex-wrap: wrap;
   }
   .prod-destacado {
@@ -633,7 +693,7 @@ footer div table {
     text-align: center;
   }
   .h2-tamanio {
-    font-size: 13px;
+    font-size: 20px;
   }
   .metodos-de-pago {
     height: 30px;
@@ -646,23 +706,23 @@ footer div table {
     height: 18px;
   }
   div h3 {
-    font-size: 12px;
+    font-size: 18px;
   }
   div p {
-    font-size: 9px;
+    font-size: 16px;
   }
   div h6 {
-    font-size: 8px;
+    font-size: 12px;
   }
   .h1-politicas {
-    font-size: 18px;
+    font-size: 28px;
     padding-top: 4px;
   }
   main strong {
-    font-size: 14px;
+    font-size: 20px;
   }
   main p {
-    font-size: 13px;
+    font-size: 18px;
   }
   ul li {
     font-size: 10px;
@@ -671,20 +731,17 @@ footer div table {
     font-size: 38px;
   }
   div.productos-productos {
-    height: 220px;
+    height: 290px;
   }
   .caja-productos div h4 {
-    font-size: 10px;
-  }
-  .caja-productos div p {
-    font-size: 5px;
+    font-size: 22px;
   }
   .caja-productos div h3 {
-    font-size: 8px;
+    font-size: 16px;
     padding-top: 5px;
   }
   .caja-productos div button {
-    font-size: 6px;
+    font-size: 14px;
     margin: 2px;
   }
   .tabla-talles th, td {
@@ -699,7 +756,7 @@ footer div table {
 }
 @media (max-width: 480px) {
   .primer-texto p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .logo-blanco {
     width: 100px;
@@ -726,27 +783,17 @@ footer div table {
     font-size: 34px;
     padding-top: 5px;
   }
-  .caja-productos div {
-    height: 250px;
+  div.productos-productos h4 {
+    font-size: 20px;
   }
-  .caja-productos div {
-    margin-left: 10px;
-    margin-right: 10px;
+  div.productos-productos h3 {
+    font-size: 16px;
   }
-  .caja-productos div h4 {
-    font-size: 12px;
+  div.productos-productos button {
+    font-size: 14px;
   }
-  .caja-productos div h3 {
-    font-size: 12px;
-  }
-  .caja-productos div button {
-    font-size: 10px;
-  }
-  .caja-productos div h4 {
-    font-size: 10px;
-  }
-  .caja-productos div h3 {
-    font-size: 9px;
+  .caja-productos {
+    grid-template-columns: repeat(1, 1fr);
   }
   div.prod-destacado {
     height: 280px;
@@ -786,20 +833,6 @@ footer div table {
   .img2-index:hover button {
     transform: scale(1.1);
   }
-  .caja-productos div h4 {
-    font-size: 10px;
-  }
-  .caja-productos div p {
-    font-size: 5px;
-  }
-  .caja-productos div h3 {
-    font-size: 8px;
-    padding-top: 5px;
-  }
-  .caja-productos div button {
-    font-size: 6px;
-    margin: 2px;
-  }
   .h2-tamanio {
     font-size: 16px;
   }
@@ -834,13 +867,10 @@ footer div table {
     padding-top: 4px;
   }
   main strong {
-    font-size: 12px;
+    font-size: 16px;
   }
   main p {
-    font-size: 12px;
-  }
-  ul li {
-    font-size: 10px;
+    font-size: 16px;
   }
   .h1-talles {
     font-size: 42px;
@@ -862,7 +892,7 @@ footer div table {
     border-color: rgb(170, 170, 170);
   }
   div .productos-productos {
-    height: 210px;
+    height: 280px;
   }
   .preguntas-frecuentes-img a img {
     height: 30px;
@@ -873,11 +903,17 @@ footer div table {
 }
 
 @media (max-width: 320px) {
+  .h1-talles {
+    font-size: 32px;
+  }
+  .h2-talles {
+    font-size: 28px;
+  }
   .preguntas-frecuentes-img a img {
     height: 30px;
   }
   .primer-texto p {
-    font-size: 8px;
+    font-size: 10px;
   }
   .logo-blanco {
     width: 80px;
@@ -886,9 +922,6 @@ footer div table {
     font-size: 9px;
     padding: 5px;
     text-align: center;
-  }
-  div.productos-productos {
-    height: 250px;
   }
   .imagen-banner {
     height: 300px;
@@ -903,7 +936,7 @@ footer div table {
     flex-wrap: wrap;
   }
   div.caja-productosdestacadosindex {
-    height: 950px;
+    height: 990px;
   }
   .prod-destacado img {
     height: 100px;
@@ -915,7 +948,7 @@ footer div table {
     font-size: 16px;
   }
   .prod-destacado h3 {
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 5px;
   }
   .prod-destacado button {
@@ -935,31 +968,33 @@ footer div table {
     transform: scale(1.1);
   }
   .caja-productos div h4 {
-    font-size: 16px;
-  }
-  .caja-productos div p {
-    font-size: 5px;
+    font-size: 18px;
   }
   .caja-productos div h3 {
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 5px;
   }
   .caja-productos div button {
-    font-size: 14px;
+    font-size: 16px;
     margin: 2px;
+  }
+  div.productos-productos {
+    height: 250px;
   }
   .productos-productos {
     border: solid 3px;
     border-radius: 5px;
     border-color: rgb(170, 170, 170);
     text-align: center;
-    height: 250px;
   }
   div.caja-productos {
     padding-bottom: 10px;
   }
+  div.caja-productos img {
+    height: 150px;
+  }
   div.prod-destacado {
-    height: 220px;
+    height: 230px;
   }
   .h2-tamanio-metodos {
     margin-top: 10px;
@@ -988,27 +1023,27 @@ footer div table {
     font-size: 8px;
   }
   .h1-politicas {
-    font-size: 15px;
+    font-size: 24px;
     padding-top: 4px;
   }
-  main strong {
-    font-size: 12px;
+  .preg-padre p {
+    font-size: 15px;
   }
-  main p {
-    font-size: 11px;
+  .strong-politica strong {
+    font-size: 16px;
   }
-  ul li {
-    font-size: 10px;
+  .termino strong {
+    font-size: 16px;
+  }
+  .margen-politicas p {
+    font-size: 16px;
   }
   .tabla-talles th, td {
     padding: 3px;
     font-size: 12px;
   }
   .caja-productos {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 5px;
-    row-gap: 10px;
   }
   .h1-productos {
     font-size: 24px;

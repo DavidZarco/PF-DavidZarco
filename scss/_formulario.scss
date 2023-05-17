@@ -1,4 +1,8 @@
 .formulario{
+    color: rgb(87, 0, 92);
+    background-color: rgb(242, 188, 253);
+    border-radius: 5px;
+    border: solid;
     margin-left: 10px;
     margin-right: 20px;
     display: grid;
@@ -13,7 +17,6 @@
     label{
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
     padding-bottom: 5px;
     }
     label:nth-child(1){
@@ -40,7 +43,7 @@
     .termino{
         grid-area: terminos;
         input{
-            height: 20px;  
+            height: 20px;
         }
         input:nth-child(1){
             grid-area: enviar;

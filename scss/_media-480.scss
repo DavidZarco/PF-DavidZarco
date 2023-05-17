@@ -1,6 +1,6 @@
 @media(max-width:480px){
     .primer-texto p{
-        font-size: 10px;
+        font-size: 15px;
     }
     .logo-blanco{
         width: 100px;
@@ -27,27 +27,20 @@
         font-size: 34px;
         padding-top: 5px;
     }
-    .caja-productos div{
-        height: 250px;
-    }
-    .caja-productos div{
-        margin-left: 10px;
-        margin-right: 10px;
+    div.productos-productos{
         h4{
-            font-size: 12px;
+            font-size: 20px;
+        }
+        h3{
+            font-size: 16px;
+        }
+        button{
+            font-size: 14px;
+
         }
     }
-    .caja-productos div h3{
-        font-size: 12px;
-    }
-    .caja-productos div button{
-    font-size: 10px;   
-    }
-    .caja-productos div h4{
-        font-size: 10px;
-    }
-    .caja-productos div h3{
-        font-size: 9px;
+    .caja-productos{
+        grid-template-columns: repeat(1,1fr);
     }
     div.prod-destacado{
         height: 280px;
@@ -87,22 +80,6 @@
             transform: scale(1.1);            
         }
     }
-    .caja-productos div {
-        h4{
-            font-size: 10px;
-        }
-        p{
-            font-size: 5px;
-        }
-        h3{
-            font-size: 8px;
-            padding-top: 5px;
-        }
-        button{
-            font-size: 6px;
-            margin: 2px;
-        }
-    }
     .h2-tamanio{
         font-size: 16px;
     }
@@ -140,14 +117,11 @@
     }
     main{
         strong{
-            font-size: 12px;
+            font-size: 16px;
         }
         p{
-            font-size: 12px;
+            font-size: 16px;
         }
-    }
-    ul li{
-        font-size: 10px;
     }
     .h1-talles{
         font-size: 42px;
@@ -169,7 +143,7 @@
         border-color: rgb(170, 170, 170);  
     }
     div .productos-productos{
-        height: 210px;
+        height: 280px;
     }
     .preguntas-frecuentes-img a img{
         height: 30px;

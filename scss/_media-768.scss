@@ -6,15 +6,13 @@
         font-size: 30px;
     }
     .h1-politicas{
-        font-size: 30px;
+        font-size: 38px;
     }
-    main{
-        strong{
-            font-size: 18px;
-        }
-        p{
-            font-size: 16px; 
-         }
+    .strong-politica{
+        font-size: 28px;
+    }
+    .margen-politicas{
+        font-size: 16px;
     }
     .h2-foter{
         font-size: 24px;
@@ -24,10 +22,10 @@
     }
     footer{
         p{
-            font-size: 12px;
+            font-size: 20px;
         }
         h6{
-            font-size: 8px;
+            font-size: 16px;
         }
     }
     .navegador ul li a{
@@ -83,18 +81,18 @@
         }
     }
     div .productos-productos{
-        height: 250px;
+        height: 340px;
     }
     .caja-productos div {
         h4{
-            font-size: 14px;
+            font-size: 26px;
         }
         h3{
-            font-size: 14px;
+            font-size: 22px;
             padding-top: 5px;
         }
         button{
-            font-size: 10px;
+            font-size: 18px;
             margin: 2px;
         }
     }
@@ -102,4 +100,21 @@
         padding: 3px;
         font-size: 24px;
     }
+    .caja-productos{
+        grid-template-columns: repeat(2,1fr);
+        padding-bottom: 10px;
+    }
+    .h2-talles{
+        padding-top: 10px;
+    }
+    .h3-footer{
+        font-size: 24px;
+    }
+}
+@media(max-width:599px){
+    .caja-productosdestacadosindex{
+        height:1400px;
+        flex-wrap: wrap;
+    }
+
 }

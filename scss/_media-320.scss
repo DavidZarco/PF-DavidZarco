@@ -1,9 +1,15 @@
 @media(max-width:320px){
+    .h1-talles{
+        font-size: 32px;
+    }
+    .h2-talles{
+        font-size: 28px;
+    }
     .preguntas-frecuentes-img a img{
         height: 30px;
     }
     .primer-texto p{
-        font-size: 8px;
+        font-size: 10px;
     }
     .logo-blanco{
         width: 80px;
@@ -13,9 +19,7 @@
         padding: 5px;
         text-align: center;
     }
-    div.productos-productos{
-        height: 250px;
-    }
+  
     .imagen-banner{
         height: 300px;
     }
@@ -29,7 +33,7 @@
         flex-wrap: wrap;
     }
     div.caja-productosdestacadosindex{
-        height: 950px;
+        height: 990px;
     }
     .prod-destacado{
         img{
@@ -42,7 +46,7 @@
             font-size: 16px;
         }
         h3{
-            font-size: 14px;
+            font-size: 16px;
             padding-top: 5px;
         }
         button{
@@ -64,32 +68,34 @@
     }
     .caja-productos div {
         h4{
-            font-size: 16px;
-        }
-        p{
-            font-size: 5px;
+            font-size: 18px;
         }
         h3{
-            font-size: 14px;
+            font-size: 18px;
             padding-top: 5px;
         }
         button{
-            font-size: 14px;
+            font-size: 16px;
             margin: 2px;
         }
+    }
+    div.productos-productos{
+        height: 250px;
     }
     .productos-productos{
         border: solid 3px;
         border-radius: 5px;
         border-color: rgb(170, 170, 170);
         text-align: center;
-        height: 250px;
     }
     div.caja-productos{
         padding-bottom: 10px;
+        img{
+            height: 150px;
+        }
     }
     div.prod-destacado{
-        height: 220px;
+        height: 230px;
     }
     .h2-tamanio-metodos{
         margin-top: 10px;
@@ -120,29 +126,33 @@
         }
     }
     .h1-politicas{
-        font-size: 15px;
+        font-size: 24px;
         padding-top: 4px;
     }
-    main{
-        strong{
-            font-size: 12px;
-        }
+    .preg-padre{
         p{
-            font-size: 11px;
+            font-size: 15px;
         }
     }
-    ul li{
-        font-size: 10px;
+    .strong-politica strong{
+        font-size: 16px;
+    }
+    .termino{
+        strong{
+            font-size: 16px;
+        }
+    }
+    .margen-politicas {
+        p{
+            font-size: 16px;
+        }
     }
     .tabla-talles th,td{
         padding: 3px;
         font-size: 12px;
     }
     .caja-productos{
-        display: grid;
         grid-template-columns: repeat(1,1fr);
-        column-gap: 5px;
-        row-gap: 10px;
     }
     .h1-productos{
         font-size: 24px;
